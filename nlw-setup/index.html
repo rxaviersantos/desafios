@@ -4,6 +4,8 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@600&family=Roboto+Mono:wght@600;700&display=swap" rel="stylesheet">
+    <script src="https://code.iconify.design/iconify-icon/1.0.2/iconify-icon.min.js"></script>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -12,7 +14,9 @@
   </head>
     <body>
       <header>
-        <img src="./assets/logo.svg" alt="logomarca do aplicativo habits">
+        <div class="logo">
+          <img src="./assets/logo.svg" alt="logomarca do aplicativo habits">
+        </div>
         <button>
           <img src="./assets/plus.svg" alt="ícone sinal de mais roxo">
           <div>
@@ -27,29 +31,24 @@
           <div class="habit" data-name="food">🥗</div>
           <div class="habit" data-name="book">📚</div>
           <div class="habit" data-name="studant">👨🏾‍🎓</div>
-
-          <!-- <div class="habit"></div>
-          <div class="habit"></div>
-          <div class="habit"></div> -->
+          <div class="habit" data-name="to sleep">😴</div>
         </div>
-        <div class="days">
-          <!-- <div class="day">
-            <div>22/01</div>
-            <input type="checkbox" name="run">
-            <input type="checkbox" name="water">
-            <input type="checkbox" name="food">
-          </div>
-
-          <div class="days">
-            <div class="day">
-              <div>23/01</div>
-              <input type="checkbox" name="run">
-              <input type="checkbox" name="water">
-              <input type="checkbox" name="food">
-            </div>
-          </div> -->
-        </div>
+        <div class="days"></div>
       </form>
+      <footer>
+        <div class="footer-content">
+            <p>
+                Copyright &copy; 2023, Rodrigo Xavier.
+            </p>
+            <div class="social-list">
+                <ul>
+                    <li><a href="https://www.linkedin.com/in/rxaviersantos/"><i class="fa-brands fa-linkedin"></i></a></li>
+                    <li><a href="https://github.com/rxaviersantos"><i class="fa-brands fa-github"></i></a></li>
+                    <li><a href="https://twitter.com/rxaviersantos"><i class="fa-brands fa-twitter"></i></a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
       <script src="https://cdn.jsdelivr.net/gh/maykbrito/libs/NLWSetup/source/NLWSetup.js"></script>
       <script src="./script.js"></script>
     </body>

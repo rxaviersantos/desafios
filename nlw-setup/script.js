@@ -3,25 +3,53 @@ const nlwSetup = new NLWSetup(form);
 const button = document.querySelector("header button");
 
 button.addEventListener("click", add);
+form.addEventListener("change", save);
 
 function add() {
-  const today = "01/01";
+  // const today = new Date().toLocaleDateString("pt-br").slice(0, -5);
+  const today = "16/01";
+  const toda = "17/01";
+  const tod = "18/01";
+  const to = "19/01";
+  const t = "20/01";
   const dayExists = nlwSetup.dayExists(today);
+  const dayExist = nlwSetup.dayExists(toda);
+  const dayExis = nlwSetup.dayExists(tod);
+  const dayExi = nlwSetup.dayExists(to);
+  const dayEx = nlwSetup.dayExists(t);
 
   if (dayExists) {
-    alert("Dia já incluso");
+    alert("Dia já incluso ❌");
     return;
   }
-  nlwSetup.addDay("01/01");
+  if (dayExist) {
+    alert("Dia já incluso ❌");
+    return;
+  }
+  if (dayExis) {
+    alert("Dia já incluso ❌");
+    return;
+  }
+  if (dayExi) {
+    alert("Dia já incluso ❌");
+    return;
+  }
+  if (dayEx) {
+    alert("Dia já incluso ❌");
+    return;
+  }
+  alert("Adicionado com sucesso ✔️");
+  nlwSetup.addDay(today);
+  nlwSetup.addDay(toda);
+  nlwSetup.addDay(tod);
+  nlwSetup.addDay(to);
+  nlwSetup.addDay(t);
 }
 
-// const data = {
-//   run: ["01-01", "24-02", "01-06", "03-02", "09-06", "25-02", "06-06"],
-//   technologist: ["01-04", "01-05"],
-//   food: ["01-01", "01-03"],
-//   book: ["01-01", "01-03"],
-//   studant: ["01-04", "01-05"],
-// };
+function save() {
+  localStorage.setItem("habits", JSON.stringify(nlwSetup.data));
+}
 
-// nlwSetup.setData(data);
-// nlwSetup.load();
+const data = JSON.parse(localStorage.getItem("habits")) || {};
+nlwSetup.setData(data);
+nlwSetup.load();
