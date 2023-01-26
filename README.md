@@ -24,3 +24,12 @@ Este é um repositório destinado a desafios de Frontend <br/>
   <img alt="projeto Habits" src="https://user-images.githubusercontent.com/85380530/214651847-23aee816-04d0-4195-a178-83943079fe3e.png" width="100%">
 </p>
 
+### Ícones 
+
+:package: nova funcionalidade 
+
+:up: atualização 
+
+:bug: correção de bugs
+
+:checkered_flag: release 
