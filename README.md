@@ -33,3 +33,4 @@ Este é um repositório destinado a desafios de Frontend <br/>
 :bug: correção de bugs
 
 :checkered_flag: release 
+
