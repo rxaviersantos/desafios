@@ -21,8 +21,8 @@
     --cor-button-secondary: #3C3748;
     --cor-button-secondaryH:#6A617F;
     --cor-button-secondaryF:#3C3748 #D9CDF7;
-    /* --cor-borda:#A8A29E;
-    --cor-borda2:#44403C;
+    --cor-texto:#fff;
+    /* --cor-borda2:#44403C;
     --cor-rodape:#272727;
     --cor-sociallist:#a7a7a7; */
 }
@@ -35,4 +35,27 @@ body{
     border-radius: 8px;
 }
 
+button{
+    background-color: var(--cor-buttonDefault);
+    font-family: var(--font-primary);
+    border: 0;
+    color: var(--cor-texto);
+    padding: 12px 12px;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+    border-radius: 24px;
+}
 
+button:hover {
+    background-color: var(--cor-buttonHover);
+}
+
+button:focus {
+    outline: 2px solid #D9CDF7;
+}
+
+button:disabled {
+    opacity: 0.56;
+}
