@@ -7,8 +7,7 @@
 
 :root{
     --font-primary: "Inter";
-    /* --font-secundary: "Josefin Slab", serif;
-    --font-action: "Muli", serif; */
+
 }
 
 :root{
@@ -22,9 +21,6 @@
     --cor-button-secondaryH:#6A617F;
     --cor-button-secondaryF:#3C3748 #D9CDF7;
     --cor-texto:#fff;
-    /* --cor-borda2:#44403C;
-    --cor-rodape:#272727;
-    --cor-sociallist:#a7a7a7; */
 }
 
 body{
@@ -33,6 +29,10 @@ body{
     height: 947px;
     background: #0B0911;
     border-radius: 8px;
+    display: grid;
+    height: 100vh;
+    place-content: center;
+    gap: 16px;
 }
 
 button{
@@ -46,6 +46,11 @@ button{
     font-size: 14px;
     line-height: 24px;
     border-radius: 24px;
+
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    gap: 8px;
 }
 
 button:hover {
@@ -58,4 +63,28 @@ button:focus {
 
 button:disabled {
     opacity: 0.56;
+    cursor: not-allowed;
+    background-color: var(--cor-buttonDefault);
+}
+
+.loading{
+    cursor: progress;
+}
+
+.loading i {
+    font-size: 18px;
+    animation: spin 700ms normal linear;
+}
+
+.movable{
+    cursor: move;
+}
+
+@keyframes spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg)
+    }
 }
