@@ -14,12 +14,13 @@
     --cor-background1: #1E1E1E;
     --cor-background2: #130F1E;
     --cor-Frame: #1C162C;
-    --cor-buttonDefault: #8257E5;
+    --cor-buttonPrimary: #8257E5;
     --cor-buttonHover:#9674E5;
     --cor-buttonFocus:#8257E5 #D9CDF7;
     --cor-button-secondary: #3C3748;
-    --cor-button-secondaryH:#6A617F;
+    --cor-button-secondaryHover:#6A617F;
     --cor-button-secondaryF:#3C3748 #D9CDF7;
+    --cor-button-secondaryFocus:#FFFFFF;
     --cor-texto:#fff;
 }
 
@@ -34,9 +35,9 @@ body{
     place-content: center;
     gap: 16px;
 }
-
+/* ======= Botão Primário ====== */
 button{
-    background-color: var(--cor-buttonDefault);
+    background-color: var(--cor-buttonPrimary);
     font-family: var(--font-primary);
     border: 0;
     color: var(--cor-texto);
@@ -51,20 +52,22 @@ button{
     display: flex;
     align-items: center;
     gap: 8px;
+    cursor: pointer;
 }
 
-button:hover {
+.hover:hover {
     background-color: var(--cor-buttonHover);
+   
 }
 
-button:focus {
-    outline: 2px solid #D9CDF7;
+.focus:focus {
+    outline: 3px solid #D9CDF7;
 }
 
 button:disabled {
     opacity: 0.56;
     cursor: not-allowed;
-    background-color: var(--cor-buttonDefault);
+    /* background-color: var(--cor-buttonDefault); */
 }
 
 .loading{
@@ -79,6 +82,50 @@ button:disabled {
 .movable{
     cursor: move;
 }
+
+/* ======= Botão Secundário ====== */
+button.secondary{
+    background-color: var(--cor-button-secondary);
+    font-family: var(--font-primary);
+    border: 0;
+    color: var(--cor-texto);
+    padding: 12px 12px;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+    border-radius: 24px;
+
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    cursor: pointer;
+}
+
+.hover:hover {
+    background-color: var(--cor-button-secondaryHover);
+}
+
+.focus:focus {
+    outline: 3px solid var(--cor-button-secondaryFocus);
+}
+
+button.disabled:disabled {
+    opacity: 0.56;
+    cursor: not-allowed;
+}
+
+.loading.loading i {
+    font-size: 18px;
+    animation: spin 700ms normal linear;
+}
+
+.movable.movable{
+    cursor: move;
+}
+
+
 
 @keyframes spin {
     from {
