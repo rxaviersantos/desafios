@@ -19,7 +19,7 @@
     --cor-buttonFocus:#8257E5 #D9CDF7;
     --cor-button-secondary: #3C3748;
     --cor-button-secondaryHover:#6A617F;
-    --cor-button-secondaryF:#3C3748 #D9CDF7;
+    --cor-button-secondaryF: #D9CDF7;
     --cor-button-secondaryFocus:#FFFFFF;
     --cor-texto:#fff;
 }
@@ -126,6 +126,46 @@ button.disabled:disabled {
 }
 
 
+/* ======= Botão Terciário ====== */
+button.tertiary{
+    background-color: transparent;
+    font-family: var(--font-primary);
+    border: 0;
+    color: var(--cor-texto);
+    padding: 12px 12px;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+    border-radius: 24px;
+
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    cursor: pointer;
+}
+
+.terciary:hover {
+    background-color: var(--cor-button-secondaryHover);
+}
+
+.focuss:focus {
+    outline: 3px solid var(--cor-button-secondaryFocus);
+}
+
+button.tertiary:disabled {
+    opacity: 0.56;
+    cursor: not-allowed;
+}
+
+.loadingg.loadingg i {
+    font-size: 18px;
+    animation: spin 700ms normal linear;
+}
+.movablee.movablee{
+    cursor: move;
+}
 
 @keyframes spin {
     from {
