@@ -57,7 +57,6 @@ button{
 
 .hover:hover {
     background-color: var(--cor-buttonHover);
-   
 }
 
 .focus:focus {
@@ -103,7 +102,7 @@ button.secondary{
     cursor: pointer;
 }
 
-.hover:hover {
+.hoverr:hover {
     background-color: var(--cor-button-secondaryHover);
 }
 
@@ -167,6 +166,10 @@ button.tertiary:disabled {
     cursor: move;
 }
 
+section {
+    column-count: 3;
+    gap: 10px;
+}
 @keyframes spin {
     from {
         transform: rotate(0deg);
