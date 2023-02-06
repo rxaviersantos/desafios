@@ -22,6 +22,8 @@
     --cor-button-secondaryF: #D9CDF7;
     --cor-button-secondaryFocus:#FFFFFF;
     --cor-texto:#fff;
+    --cor-sociallist:#a7a7a7;
+    --cor-rodape:#272727;
 }
 
 body{
@@ -213,4 +215,38 @@ button.tertiary:disabled {
     to {
         transform: rotate(360deg)
     }
+}
+
+/* ======= Footer ====== */
+
+footer{
+    display: flex;
+    width: 100vh;
+    height: 8rem;
+    background-color: var(--cor-rodape);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-content{
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-content p{
+    font-family: var(--font-secundary);
+    color: var(--cor-sociallist);
+    font-size: 1.2rem;
+}
+
+.social-list a{
+    margin: 0 2rem;
+    color: var(--cor-sociallist);
+    font-size: 1.3rem;
+}
+
+.social-list ul{
+    display: flex;
 }
