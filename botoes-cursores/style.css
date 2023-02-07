@@ -58,13 +58,58 @@ header{
 /* ======= Title ====== */
 
 .title {
+    /* font-family: var(--font-primary);
+    color: var(--cor-texto);
+    font-style: normal;
+    margin-bottom: 8px;
+    font-weight: 700;
+    line-height: 32px; */
+
+    font-family: 'Roboto';
+    color: var(--cor-texto);
+    font-style: normal;
+    margin-bottom: 8px;
+    font-weight: 400;
+    line-height: 23px;
+    font-size: 19.2059px;
+}
+
+h1{
+    width: 233px;
+height: 32px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 32px;
+/* line-height: 100%; */
+/* identical to box height, or 32px */
+
+
+color: #FFFFFF;
+}
+
+
+/* .subtitle {
     font-family: var(--font-primary);
     color: var(--cor-texto);
     font-style: normal;
     margin-bottom: 8px;
     font-weight: 700;
     line-height: 32px;
-}
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 8px;
+
+    position: absolute;
+    width: 318px;
+    height: 86px;
+    left: 150vh;
+    top: -67px;
+} */
 
 
 /* ======= Section ====== */
@@ -76,6 +121,7 @@ section{
 /* ======= Table ====== */
 table{
     border: 4px solid var(--cor-Frame);
+    inline-size: -webkit-fill-available;
 }
 
 /* ======= Type button ====== */
@@ -89,13 +135,16 @@ th{
     font-style: normal;
     font-weight: 400;
     font-size: 11px;
+    border-radius: 0px 0px 8px 0px;
     /* line-height: 13rem; */
 }
 
 td {
     height: 75px;
     width: 200px;
-    text-align: center;
+    /* text-align: center; */
+    padding: 8px;
+    text-align: -webkit-center;
 }
 
 #btn-text {
@@ -108,6 +157,7 @@ td {
     padding: 17px;
     background-color: var(--cor-Frame);
     color: white;
+    border-radius: 0px 0px 8px 0px;
 }
 
 /* ======= Botão Primário ====== */
@@ -134,21 +184,21 @@ button{
     background-color: var(--cor-buttonHover);
 }
 
-.focus:focus {
+.focuus:focus {
     outline: 3px solid #D9CDF7;
 }
 
 button:disabled {
     opacity: 0.56;
     cursor: not-allowed;
-    /* background-color: var(--cor-buttonDefault); */
+    background-color: var(--cor-buttonPrimary);
 }
 
-.loading{
+.loandinng{
     cursor: progress;
 }
 
-.loading i {
+.loandinng i {
     font-size: 18px;
     animation: spin 700ms normal linear;
 }
@@ -174,6 +224,7 @@ button.secondary{
     display: flex;
     align-items: center;
     gap: 8px;
+    width: max-content;
     /* cursor: pointer; */
 }
 
@@ -190,7 +241,10 @@ button.disabled:disabled {
     cursor: not-allowed;
 }
 
-.loading.loading i {
+.loadingg{
+    cursor: progress;
+}
+.loadingg i {
     font-size: 18px;
     animation: spin 700ms normal linear;
 }
@@ -220,9 +274,10 @@ button.tertiary{
     /* cursor: pointer; */
 }
 
-.terciary:hover {
+.hoveer:hover {
     background-color: var(--cor-button-secondaryHover);
-}
+   
+} 
 
 .focuss:focus {
     outline: 3px solid var(--cor-button-secondaryFocus);
@@ -233,7 +288,10 @@ button.tertiary:disabled {
     cursor: not-allowed;
 }
 
-.loadingg.loadingg i {
+.loading{
+    cursor: progress;
+}
+.loading i {
     font-size: 18px;
     animation: spin 700ms normal linear;
 }
