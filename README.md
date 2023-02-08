@@ -40,6 +40,7 @@ Este é um repositório destinado a desafios de Frontend <br/>
 | Improve user experience / usability. | 🚸``:children_crossing:`` |
 | Add or update text and literals. | 💬``:speech_balloon:`` |
 | Add or update types. | 🏷️``:label:`` |
+| Add or update assets. | 🍱``:bento:`` |
 | Work on responsive design. | 📱``:iphone:`` |
 | Remove dead code. | ⚰️``:coffin:`` |
 | Add a failing test. | 🧪``:test_tube:`` |
@@ -51,7 +52,7 @@ Este é um repositório destinado a desafios de Frontend <br/>
 | Performance       | 🐎`` :racehorse:`` |
 | Cosmetic          | 💄 ``:lipstick:`` |
 | Tests             | 🚨`` :rotating_light:`` |
-| Adding a test     | ✅ ``:white_check_mark:`` |
+| Add, update, or pass tests. | ✅ ``:white_check_mark:`` |
 | Make a test pass  | ✔️ ``:heavy_check_mark:`` |
 | General update      | 	⚡`` :zap:`` |
 | Improve format/structure     | 🎨 ``:art:`` |
@@ -62,8 +63,8 @@ Este é um repositório destinado a desafios de Frontend <br/>
 | Upgrading dependencies      | ⬆️ ``:arrow_up:`` |
 | Downgrading dependencies | ⬇️ ``:arrow_down:``  |
 | Lint              | ⬇️ ``👕 :shirt:`` |
-| Translation       | 👽 ``:alien:`` |
-| Text              | 📝 ``:pencil:``|
+| Update code due to external API changes. | 👽 ``:alien:`` |
+| Add or update documentation. | 📝 ``:memo:``|
 | Critical hotfix   | 🚑 ``:ambulance:`` |
 | Deploying stuff   | 🚀 ``:rocket:`` |
 | Fixing on MacOS   | 🍎 ``:apple:`` |
