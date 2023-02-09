@@ -24,6 +24,14 @@ Este é um repositório destinado a desafios de Frontend <br/>
   <img alt="projeto Habits" src="https://user-images.githubusercontent.com/85380530/214651847-23aee816-04d0-4195-a178-83943079fe3e.png" width="100%">
 </p>
 
+## 🏷️ Pages
+
+ - Tipos de botão:  Dentro de um layout, botões servem para destacar ações importantes a serem tomadas. [Projeto](https://rxaviersantos.github.io/desafios/botoes-cursores/)
+
+<p align="center">
+  <img alt="projeto tipo de botões" src="https://user-images.githubusercontent.com/85380530/217408753-db62f88c-60db-481a-bba7-63540854e0d9.png" width="100%">
+</p>
+
 
 ## Emojis para mensagens de commit 
 
