@@ -9,12 +9,42 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <section class="main">
-        <form action="" name="calculadora">
-            <input type="text" class="text color" name="text1" disabled>
+    <section id="calculator">
 
-            <input type="text" class="text1 color" name="text12" value="C" 
-                 onclick="location.reload()"><br>
+        <form action="" name="formCalculator">
+
+            <input type="text" class="text btnviolet" name="text1" disabled>
+
+            <input type="text" class="text1 btnviolet" name="text12" value="C" 
+            onclick="location.reload()"><br>
+
+            <input type="button" class="num btnviolet"
+            name="btn7" value="7" onclick="displaynum(btn7.value)">
+
+            <input type="button" class="num btnviolet"
+            name="btn8" value="8" onclick="displaynum(btn8.value)">
+
+            <input type="button" class="num btnviolet"
+            name="btn9" value="9" onclick="displaynum(btn9.value)">
+
+            <input type="button" class="num btnpurple"
+            name="mult" value="X" onclick="displaynum(mult.value)">
+            
+            <input type="button" class="num btnviolet"
+            name="btn4" value="4" onclick="displaynum(btn4.value)">
+
+            <input type="button" class="num btnviolet"
+            name="btn5" value="5" onclick="displaynum(btn5.value)">
+
+            <input type="button" class="num btnviolet"
+            name="btn6" value="6" onclick="displaynum(btn6.value)">
+
+            <input type="button" class="num btnpurple"
+            name="sub" value="-" onclick="displaynum(mult.value)">`
+
+            <input type="button" class="num btnviolet"
+            name="btn6" value="6" onclick="displaynum(btn6.value)">
+            
         </form>
     </section>
     
