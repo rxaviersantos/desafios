@@ -13,10 +13,19 @@
 
         <form action="" name="formCalculator">
 
-            <input type="text" class="text btnviolet" name="text1" disabled>
+            <input type="text" class="text btnviolet" name="text1" disabled><br>
+
+            <input type="text" class="text1 btnviolet" name="text12" value="CE" 
+            onclick="location.reload()">
 
             <input type="text" class="text1 btnviolet" name="text12" value="C" 
-            onclick="location.reload()"><br>
+            onclick="location.reload()">
+
+            <input type="button" class="num btnviolet"
+            name="porc" value="%" onclick="displaynum(porc.value)">
+            
+            <input type="button" class="num btnpurple"
+            name="div" value="/" onclick="displaynum(sub.value)"><br>
 
             <input type="button" class="num btnviolet"
             name="btn7" value="7" onclick="displaynum(btn7.value)">
@@ -28,7 +37,7 @@
             name="btn9" value="9" onclick="displaynum(btn9.value)">
 
             <input type="button" class="num btnpurple"
-            name="mult" value="X" onclick="displaynum(mult.value)">
+            name="mult" value="X" onclick="displaynum(mult.value)"><br>
             
             <input type="button" class="num btnviolet"
             name="btn4" value="4" onclick="displaynum(btn4.value)">
@@ -40,10 +49,36 @@
             name="btn6" value="6" onclick="displaynum(btn6.value)">
 
             <input type="button" class="num btnpurple"
-            name="sub" value="-" onclick="displaynum(mult.value)">`
+            name="sub" value="-" onclick="displaynum(sub.value)"><br>
 
             <input type="button" class="num btnviolet"
-            name="btn6" value="6" onclick="displaynum(btn6.value)">
+            name="btn1" value="1" onclick="displaynum(btn1.value)">
+
+            <input type="button" class="num btnviolet"
+            name="btn2" value="2" onclick="displaynum(btn2.value)">
+
+            <input type="button" class="num btnviolet"
+            name="btn3" value="3" onclick="displaynum(btn3.value)">
+
+            <input type="button" class="num btnpurple"
+            name="soma" value="+" onclick="displaynum(soma.value)"><br>
+
+            <input type="button" class="num btnviolet"
+            name="mn" value="+/-" onclick="displaynum(mn.value)">
+
+            <input type="button" class="num btnviolet"
+            name="btn0" value="0" onclick="displaynum(btn0.value)">
+
+            <input type="button" class="num btnviolet"
+            name="virg" value="," onclick="displaynum(virg.value)">
+
+            <input type="button" class="num btnpurple"
+            name="eql" value="=" onclick="text1.value=eval(text1.value)">
+
+
+
+
+
             
         </form>
     </section>
