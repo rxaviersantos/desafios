@@ -9,20 +9,17 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+
     <section id="calculator">
 
+        <div class="display">
+            <div class="display-top"></div>
+            <div class="display-bottom"></div>
+          </div>
+        <!-- <input type="text" class="text" name="text1" disabled><br> -->
+        
         <form action="" name="formCalculator">
-<!-- 
-            <input type="text" class="text btnviolet" name="text1" disabled><br>
 
-            <input type="text" class="text1 btnviolet" name="text12" value="CE" 
-            onclick="location.reload()">
-
-            <input type="text" class="text1 btnviolet" name="text12" value="C" 
-            onclick="location.reload()">
-
-             -->
-            
             <input type="text" class="text1 btnviolet" name="text12" value="CE" 
             onclick="location.reload()">
 
@@ -33,7 +30,8 @@
             name="porc" value="%" onclick="displaynum(porc.value)">
 
             <input type="button" class="num btnBlue-violet"
-            name="div" id="usr" onclick="displaynum(div.value)">
+            name="div" value="÷" onclick="displaynum(div.value)">
+
 
 
 
@@ -47,7 +45,7 @@
             name="btn9" value="9" onclick="displaynum(btn9.value)">
 
             <input type="button" class="num btnBlue-violet"
-            name="mult" id="X" onclick="displaynum(mult.value)">
+            name="mult" value="x" onclick="displaynum(mult.value)">
             
 
 
@@ -91,9 +89,8 @@
 
             <input type="button" class="num btnRoyal-puple"
             name="eql" value="=" onclick="text1.value=eval(text1.value)">
-            
         </form>
     </section>
-    
 </body>
+<script src="./script.js"></script>
 </html>
