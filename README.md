@@ -32,6 +32,16 @@ Este é um repositório destinado a desafios de Frontend <br/>
   <img alt="projeto tipo de botões" src="https://user-images.githubusercontent.com/85380530/217408753-db62f88c-60db-481a-bba7-63540854e0d9.png" width="100%">
 </p>
 
+## 📱 Pages
+
+ - Calculadora:  Aplicação desenvolvida com html/css e javascript. [Projeto](https://rxaviersantos.github.io/desafios/calculadora/)
+
+<p align="center">
+  <img alt="projeto tipo de botões" src="https://user-images.githubusercontent.com/85380530/219251615-dd218ec3-fe2e-4524-bb03-b88b5e57c621.png" width="100%">
+</p>
+
+
+
 
 ## Emojis para mensagens de commit 
 
