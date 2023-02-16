@@ -8,7 +8,7 @@ var resultado = () => {
   try {
     res.value = eval(text.value);
   } catch (err) {
-    alert("Operação incorreta");
+    alert("Método não permitido ❌");
   }
 };
 
@@ -17,10 +17,6 @@ function clr() {
   text.value = "";
 }
 
-function del() {
+function remove() {
   text.value = text.value.slice(0, -1);
-}
-
-function round() {
-  res.value = res.value.tofixed(2);
 }
