@@ -19,6 +19,9 @@ Este é um repositório destinado a desafios de Frontend <br/>
 ## 🔖 Pages
 
  - Habits é uma aplicação para rastrear hábitos. [Projeto](https://rxaviersantos.github.io/desafios/nlw-setup/)
+ 
+ ### 🛠 Habilidades
+Javascript, HTML, CSS...
 
 <p align="center">
   <img alt="projeto Habits" src="https://user-images.githubusercontent.com/85380530/214651847-23aee816-04d0-4195-a178-83943079fe3e.png" width="100%">
@@ -27,6 +30,9 @@ Este é um repositório destinado a desafios de Frontend <br/>
 ## 🏷️ Pages
 
  - Tipos de botão:  Dentro de um layout, botões servem para destacar ações importantes a serem tomadas. [Projeto](https://rxaviersantos.github.io/desafios/botoes-cursores/)
+ 
+ ### 🛠 Habilidades
+HTML, CSS...
 
 <p align="center">
   <img alt="projeto tipo de botões" src="https://user-images.githubusercontent.com/85380530/217408753-db62f88c-60db-481a-bba7-63540854e0d9.png" width="100%">
@@ -34,11 +40,28 @@ Este é um repositório destinado a desafios de Frontend <br/>
 
 ## 📱 Pages
 
- - Calculadora:  Aplicação desenvolvida com html/css e javascript. [Projeto](https://rxaviersantos.github.io/desafios/calculadora/)
+ - Calculadora. [Projeto](https://rxaviersantos.github.io/desafios/calculadora/)
+ 
+ ### 🛠 Habilidades
+Javascript, HTML, CSS...
 
 <p align="center">
   <img alt="projeto tipo de botões" src="https://user-images.githubusercontent.com/85380530/219251615-dd218ec3-fe2e-4524-bb03-b88b5e57c621.png" width="100%">
 </p>
+
+
+## <img src="https://img.icons8.com/ultraviolet/40/000000/boarding-pass.png"/> Pages
+
+ - Cartão de embarque. [Projeto](https://rxaviersantos.github.io/desafios/cartao-embarque/)
+ 
+ ### 🛠 Habilidades
+HTML, CSS...
+
+<p align="center">
+  <img alt="projeto tipo de botões" src="https://user-images.githubusercontent.com/85380530/219751345-88ae7f5d-5d8c-4d8e-8e15-5e0eb5968c56.png" width="100%">
+</p>
+
+
 
 
 
