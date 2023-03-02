@@ -9,9 +9,37 @@
 </head>
 <body>
     <header>
-        <p>find your block</p>
-        <h1>Encontre os <span>melhores blocos</span> de carnaval de 2023</h1>
-        <form class="search"></form>
-    </header>
+        <div class="content">
+          <div class="top">
+            <p>find your block</p>
+            <h1>Encontre os <span>melhores blocos</span> de carnaval de 2023</h1>
+          </div>
+  
+          <form class="search">
+            <div class="search-field">
+              <label class="sr-only" for="name">Pesquise por nome</label>
+              <i class="ph-magnifying-glass-light"></i>
+              <input
+                type="text"
+                id="name"
+                name="name"
+                placeholder="Pesquise por nome"
+              />
+            </div>
+            <div class="search-field select">
+              <label class="sr-only" for="city">Selecione uma cidade</label>
+              <i class="ph-map-pin-light"></i>
+              <select name="city" id="city">
+                <option value="0" selected>Selecione sua cidade</option>
+                <option value="sao-paulo">São Paulo</option>
+                <option value="rio-de-janeiro">Rio de Janeiro</option>
+                <option value="salvador">Salvador</option>
+              </select>
+              <i class="ph-caret-down-light"></i>
+            </div>
+            <button class="btn primary">Buscar agora</button>
+          </form>
+        </div>
+      </header>
 </body>
 </html>
