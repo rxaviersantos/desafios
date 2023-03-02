@@ -61,4 +61,15 @@ HTML, CSS...
   <img alt="projeto tipo de botões" src="https://user-images.githubusercontent.com/85380530/219751345-88ae7f5d-5d8c-4d8e-8e15-5e0eb5968c56.png" width="100%">
 </p>
 
+## <img src="https://img.icons8.com/external-flaticons-lineal-color-flat-icons/40/null/external-landing-page-web-development-flaticons-lineal-color-flat-icons-2.png"/> Pages
+
+ - Cartão de embarque. [Projeto](https://github.com/rxaviersantos/desafios/tree/main/landing-page)
+ 
+ ### 🛠 Habilidades
+HTML, CSS...
+
+<p align="center">
+  <img alt="projeto tipo de botões" src="https://user-images.githubusercontent.com/85380530/222319957-5f69c6d1-6af8-4470-b132-56f52d62ea09.png" width="100%">
+</p>
+
 
