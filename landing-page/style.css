@@ -85,7 +85,7 @@ body {
   
   header::before {
     content: "";
-    background-image: url(./assets/bg-header-top.svg);
+    background-image: url(./image/ilustra-01.jpg);
     width: 40.7rem;
     height: 34.5rem;
   
@@ -97,7 +97,7 @@ body {
   
   header::after {
     content: "";
-    background-image: url(./assets/bg-header-bottom.svg);
+    background-image: url(./image/ilustra-02.jpg);
     width: 41.4rem;
     height: 33rem;
   
