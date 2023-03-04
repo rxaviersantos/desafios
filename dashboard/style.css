@@ -12,25 +12,63 @@
 
 body {
     font-size: 1.6rem;
+    font-family: 'Inter';
 }
 
 .box{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 29px 48px;
-    gap: 32px;
-
-    width: 296px;
-    height: 379px;
+    padding: 2.9rem 4.8rem;
 
     background: #363447;
-    box-shadow: 3px 4px 26px rgba(0, 0, 0, 0.25);
-    border-radius: 16px;
+    box-shadow: 0.3rem 0.4rem 2.6rem rgba(0, 0, 0, 0.25);
+    border-radius: 1.6rem;   
+    color: white;
+    line-height: 160%;
+}
 
-/* Inside auto layout */
+#app{
+    background-color: #292738;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
 
-    flex: none;
-    order: 0;
-    flex-grow: 0;    
+    column-gap: 3.2rem;
+    row-gap: 5.9rem;
+    width: 100vw;
+    height: 100vh;
+    padding: 11.2rem 12.3rem;
+}
+
+.box:nth-child(4){
+    grid-column: 1/4;
+}
+
+.top{
+    font-weight: 600;
+    font-size: 2.4rem;
+    text-align: center;
+}
+
+.nps{
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 160%;
+    text-align: center;
+
+    width: 29.6rem;
+    gap: 3.2rem;
+}
+
+.nps .middle{
+    min-height: 19.7rem;
+    place-content: center;
+    justify-items: center;
+    gap: 1.6rem;
+    color: #81FBB8;
+}
+
+.nps .bottom {
+    font-weight: 500;
+    font-size: 1.4rem;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
 }
