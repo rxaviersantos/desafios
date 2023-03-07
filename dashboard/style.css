@@ -57,11 +57,28 @@ body {
     gap: 2rem;
     justify-content: center;
     margin-top: auto;
+    font-weight: 500;
+    font-size: 14px;
 }
 
 .bottom .item{
     display: flex;
     gap: 1rem;
+    align-items: center;
+}
+
+.bottom .item span:nth-child(1){
+    display: flex;
+    align-items: center;
+    gap: 0.4rem;
+}
+.bottom .item span:nth-child(1)::before{
+    content: "";
+    width: 1.5rem;
+    height: 1.5rem;
+    display: block;
+    background: #4A4556;
+    border-radius: 999px;
 }
 
 .nps{
