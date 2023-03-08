@@ -20,8 +20,6 @@ Este é um repositório destinado a desafios de Frontend <br/>
 
  - Habits é uma aplicação para rastrear hábitos. [Projeto](https://rxaviersantos.github.io/desafios/nlw-setup/)
  
- ### 🛠 Habilidades
-Javascript, HTML, CSS...
 
 <p align="center">
   <img alt="projeto Habits" src="https://user-images.githubusercontent.com/85380530/214651847-23aee816-04d0-4195-a178-83943079fe3e.png" width="100%">
@@ -29,10 +27,8 @@ Javascript, HTML, CSS...
 
 ## 🏷️ Pages
 
- - Tipos de botão:  Dentro de um layout, botões servem para destacar ações importantes a serem tomadas. [Projeto](https://rxaviersantos.github.io/desafios/botoes-cursores/)
- 
- ### 🛠 Habilidades
-HTML, CSS...
+ - Tipos de botão:  Dentro de um layout, botões servem para destacar ações importantes a serem tomadas. [Projeto](https://github.com/rxaviersantos/desafios/tree/main/botoes-cursores)
+
 
 <p align="center">
   <img alt="projeto tipo de botões" src="https://user-images.githubusercontent.com/85380530/217408753-db62f88c-60db-481a-bba7-63540854e0d9.png" width="100%">
@@ -40,10 +36,8 @@ HTML, CSS...
 
 ## 📱 Pages
 
- - Calculadora. [Projeto](https://rxaviersantos.github.io/desafios/calculadora/)
+ - Calculadora. [Projeto](https://github.com/rxaviersantos/desafios/tree/main/calculadora)
  
- ### 🛠 Habilidades
-Javascript, HTML, CSS...
 
 <p align="center">
   <img alt="projeto tipo de botões" src="https://user-images.githubusercontent.com/85380530/219251615-dd218ec3-fe2e-4524-bb03-b88b5e57c621.png" width="100%">
@@ -52,10 +46,8 @@ Javascript, HTML, CSS...
 
 ## <img src="https://img.icons8.com/ultraviolet/40/000000/boarding-pass.png"/> Pages
 
- - Cartão de embarque. [Projeto](https://rxaviersantos.github.io/desafios/cartao-embarque/)
+ - Cartão de embarque. [Projeto](https://github.com/rxaviersantos/desafios/tree/main/cartao-embarque)
  
- ### 🛠 Habilidades
-HTML, CSS...
 
 <p align="center">
   <img alt="projeto tipo de botões" src="https://user-images.githubusercontent.com/85380530/219751345-88ae7f5d-5d8c-4d8e-8e15-5e0eb5968c56.png" width="100%">
@@ -63,13 +55,22 @@ HTML, CSS...
 
 ## <img src="https://img.icons8.com/external-flaticons-lineal-color-flat-icons/40/null/external-landing-page-web-development-flaticons-lineal-color-flat-icons-2.png"/> Pages
 
- - Cartão de embarque. [Projeto](https://github.com/rxaviersantos/desafios/tree/main/landing-page)
+ - Landing-page. [Projeto](https://github.com/rxaviersantos/desafios/tree/main/landing-page)
  
- ### 🛠 Habilidades
-HTML, CSS...
 
 <p align="center">
   <img alt="projeto tipo de botões" src="https://user-images.githubusercontent.com/85380530/222319957-5f69c6d1-6af8-4470-b132-56f52d62ea09.png" width="100%">
 </p>
+
+## <img src="https://img.icons8.com/external-flaticons-lineal-color-flat-icons/40/null/external-dashboard-computer-programming-icons-flaticons-lineal-color-flat-icons-2.png"/>  Pages
+
+ - Dashboard. [Projeto](https://github.com/rxaviersantos/desafios/tree/main/dashboard)
+ 
+
+<p align="center">
+  <img alt="projeto tipo de botões" src="https://user-images.githubusercontent.com/85380530/223815685-5fac4180-d232-4e22-9621-7c94a0aa74d7.png" width="100%">
+</p>
+
+
 
 
