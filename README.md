@@ -18,7 +18,7 @@ Este é um repositório destinado a desafios de Frontend <br/>
 
 ## 🔖 Pages
 
- - Habits é uma aplicação para rastrear hábitos. [Projeto](https://rxaviersantos.github.io/desafios/nlw-setup/)
+ - Habits é uma aplicação para rastrear hábitos. [Projeto]([https://rxaviersantos.github.io/desafios/nlw-setup/](https://github.com/rxaviersantos/desafios/tree/main/nlw-setup))
  
 
 <p align="center">
