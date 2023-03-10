@@ -16,7 +16,7 @@ Este é um desafio semanal de Frontend,  promovido pela Rocketseat<br/>
 ## <img src="https://img.icons8.com/external-flaticons-lineal-color-flat-icons/40/null/external-landing-page-web-development-flaticons-lineal-color-flat-icons-2.png"/> Screenshots
 
 <p align="center">
-  <img alt="projeto tipo de botões" src="https://user-images.githubusercontent.com/85380530/222319957-5f69c6d1-6af8-4470-b132-56f52d62ea09.png" width="100%">
+  <img alt="landing page" src="https://user-images.githubusercontent.com/85380530/222319957-5f69c6d1-6af8-4470-b132-56f52d62ea09.png" width="100%">
 </p>
 
 ## 🛠 Habilidades
@@ -39,7 +39,7 @@ HTML e CSS
       - img 
 - CSS
 ````CSS
-- margin-top: auto
+- margin-top
 - centralizar div com position/grid/flex/margin
 - fit-content
 - place-content / align-self / justify-items / justify-content
