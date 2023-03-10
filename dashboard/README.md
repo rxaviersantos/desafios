@@ -29,23 +29,23 @@ HTML e CSS
 - Link do [Figma](https://www.figma.com/community/file/1210217615683203825)
 - CSS
 ````CSS
-- margin-top: auto
-- centralizar div com position/grid/flex/margin
+- margin-top
+- centralizar div com position - grid - flex - margin
 - fit-content
-- place-content / align-self / justify-items / justify-content
-- centralizar div com position/grid/flex/margin
-- :nth-child() / ::before
-- transform / matrix() / rotate()
-- stroke / dasharray / dashoffset / stroke-width / linecap
+- place-content - align-self - justify-items - justify-content
+- centralizar div com position - grid - flex - margin
+- :nth-child() - ::before
+- transform - matrix() - rotate()
+- stroke - dasharray - dashoffset - stroke-width - linecap
 - fill
-- responsividade / mobile first / @media
-- clip-path / polygon
+- responsividade - mobile first - @media
+- clip-path - polygon
 - linear-gradient()
 - calc()
 - aplicar variável pelo atributo HTML
-- animations / @keyframes
-- column-gap / row-gap
-- grid-template-columns / grid-template-rows / grid-column / grid-auto-flow
+- animations - @keyframes
+- column-gap - row-gap
+- grid-template-columns - grid-template-rows - grid-column - grid-auto-flow
 
 
 
